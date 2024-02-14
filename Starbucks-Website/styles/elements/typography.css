@@ -1,9 +1,9 @@
 @import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
 
 html {
-    font: 15px/1.5 "SoDo Sans SemiBold" ,Helvetica Neue, Helvetica, Arial,sans-serif;
+    font: 15px/1.7 "SoDo Sans SemiBold" ,Helvetica Neue, Helvetica, Arial,sans-serif;
 }
 
-body, input, table {
+body, input, table, button {
     font: inherit;
 }
