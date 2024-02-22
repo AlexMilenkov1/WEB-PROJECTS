@@ -1,11 +1,12 @@
-.first-product-container {
+.first-product-container,
+.second-product-container {
     display: flex;
     max-width: 75vw;
     margin: 0 auto;
     margin-top: 2em;
 }
 
-.left-side {
+.first-product-container .left-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,20 +16,20 @@
     gap: 0.7em;
 }
 
-.left-side h1 {
+.first-product-container .left-side h1 {
     font-size: 3.2em;
     font-weight: 600;
     opacity: 0.75;
 }
 
-.left-side p {
+.first-product-container .left-side p {
     font-size: 1.5em;
     max-width: 23em;
     opacity: 0.75;
     text-align: center;
 }
 
-.left-side button {
+.first-product-container .left-side button {
     background-color: rgb(239, 171, 252);
     color: #1E3932;
     border: 1px solid #1E3932;
@@ -38,6 +39,44 @@
     margin-top: 1.3em;
 }
 
-.left-side button:hover {
+.first-product-container .left-side button:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.second-product-container .reverse-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b2b267;
+    flex: 0 0 50%;
+    gap: 0.7em;
+}
+
+.second-product-container .reverse-left-side h1 {
+    font-size: 3.2em;
+    font-weight: 600;
+    opacity: 0.75;
+}
+
+.second-product-container .reverse-left-side p {
+    font-size: 1.5em;
+    max-width: 23em;
+    opacity: 0.75;
+    text-align: center;
+    font-weight: normal;
+}
+
+.second-product-container .reverse-left-side button {
+    background-color: #b2b267;
+    color: #1E3932;
+    border: 1px solid #1E3932;
+    border-radius: 1.5em;
+    padding: 3px 16px;
+    cursor: pointer;
+    margin-top: 1.3em;
+}
+
+.second-product-container .reverse-left-side button:hover {
     background-color: rgb(0, 0, 0, 0.1);
 }

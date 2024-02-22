@@ -52,7 +52,7 @@
 }
 
 .navbar-right button.sign-in {
-    padding: 7px 16px 7px 16px;
+    padding: 6px 22px 6px 22px;
     border-radius: 1.3em;
     background-color: white;
     border: 1px solid black;
@@ -61,7 +61,7 @@
 }
 
 .navbar-right button.join-now {
-    padding: 7px 16px 7px 16px;
+    padding: 6px 22px 6px 22px;
     border-radius: 1.3em;
     background-color: black;
     border: 1px solid black;
