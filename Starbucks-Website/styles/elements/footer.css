@@ -1,0 +1,43 @@
+footer {
+    box-shadow: 0 0 0.3em 0.1em rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+
+.links {
+    display: flex;
+    padding: 0 13em;
+    gap: 30px;
+}
+
+.link {
+    flex: 0 0 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.links li a:hover {
+    color: black;
+}
+
+.links h2 {
+    font-size: 0.9em;
+    font-weight: normal;
+}
