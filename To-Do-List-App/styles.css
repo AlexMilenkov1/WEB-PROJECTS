@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sedan', serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    display: flex;
+    align-items: center;
+    flex-direction: c;
+}
+
+.to-do-app {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.to-do-app header {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.to-do-app header p{
+    margin-left: 200px;
+    color: rgb(182, 0, 0);
+    cursor: pointer;
+}
+
+.to-do-app .icon-img {
+    width: 40px;
+}
+
+.to-do-app h2 {
+    color: #002765;
+}
+
+.to-do-app .row {
+    background-color: #edeef0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    border-radius: 30px;
+}
+
+.row input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 15px 17px;
+    font-size: 18px;
+}
+
+.row button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #9353e7;
+    padding: 16px 50px;
+    border-radius: 30px;
+    font-size: 14.5px;
+    text-decoration: solid;
+}
+
+.list-container {
+    padding-left: 45px;
+}
+
+.list-container li {
+    list-style: none;
+    padding: 10px 0;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+}
+
+.list-container li::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-image: url(images/uchked-img.png);
+    background-size: cover;
+    background-position: center;
+    top: 10px;
+    left: -30px;
+}
+
+.list-container li.checked-item {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.list-container li.checked-item::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-image: url(images/checked-img.png);
+    background-size: cover;
+    background-position: center;
+    top: 10px;
+    left: -30px;
+}
