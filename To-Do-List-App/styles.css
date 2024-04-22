@@ -80,6 +80,10 @@ img {
     text-decoration: solid;
 }
 
+.row button:hover {
+    background-color: #7a4db4;
+}
+
 .list-container {
     padding-left: 45px;
 }
@@ -120,4 +124,17 @@ img {
     background-position: center;
     top: 10px;
     left: -30px;
+}
+
+.list-container li img {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 15px;
+    left: 400px;
+    border-radius: 50%;
+}
+
+.list-container li img:hover {
+    background-color: rgb(235, 235, 235);
 }
