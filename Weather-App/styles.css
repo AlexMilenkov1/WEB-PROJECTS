@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: #222;
+}
+
+.weather-container {
+    background: rgb(122, 119, 172);
+    background: linear-gradient(90deg, rgba(122, 119, 172, 1) 0%, rgba(98, 198, 148, 1) 45%, rgba(0, 212, 255, 1) 100%);
+    margin: 100px auto 0;
+    max-width: 510px;
+    border-radius: 6px;
+}
+
+.search-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-area input {
+    margin-left: 25px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 25px 10px 8px;
+    font-size: 18px;
+    color: #555;
+    background-color: #ebfffc;
+    flex: 1;
+}
+
+.search-area button {
+    background-color: #ebfffc;
+    width: 45px;
+    height: 45px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 5px 15px 5px 0;
+}
+
+.search-area button img {
+    width: 40%;
+}
