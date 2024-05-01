@@ -22,7 +22,7 @@ searchButton.addEventListener('click', async () => {
         const data = await response.json()
 
         if (!response.ok) {
-            throw new Error("This city doesn't exist...")
+            throw new Error("Please enter an existing city!")
         }
 
         // Get all the info from the response
@@ -75,9 +75,17 @@ searchButton.addEventListener('click', async () => {
     }
     catch (error) {
         const errorMessage = error.message
+        const errorImage = document.createElement('img')
+        errorImage.src = 'images/error.png'
 
-        inputCityElement.value = errorMessage
+        statusImageElement.innerHTML = '' 
+        statusImageElement.append(errorImage)
 
-        // TO DO make error message appears in div.weather and add some style to it
+        tempreratuteElement.textContent = ''
+        cityElement.textContent = errorMessage
+        humidityElement.textContent = 0
+        widnSpeedElement.textContent = 0
+
+        inputCityElement.value = ''
     }
 })
