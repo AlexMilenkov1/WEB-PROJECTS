@@ -37,4 +37,4 @@ Alex Milenkov
 
 This application uses the free QR code generation service from `https://api.qrserver.com`. You can modify the code to use a different service if desired.
 
-![Screenshot of the QR code generator app](https://example.com/qr-code-generator.png)
+![Screenshot of the QR code generator app]([https://example.com/qr-code-generator.png](https://github.com/AlexMilenkov1/WEB-PROJECTS/blob/main/Screenshot_2.png))
