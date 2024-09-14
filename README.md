@@ -1,4 +1,4 @@
-# WEB-PROJECTS
+# WEB-PROJECTS 
 
 # QR Code Generator
 
@@ -41,10 +41,11 @@ This application uses the free QR code generation service from `https://api.qrse
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Online Task Manager
+# Online Task Manager
+
 Welcome to the Online Task Manager! This application allows you to create, manage, and track your tasks easily. It features a simple and intuitive interface where you can add tasks, mark them as completed, and clear all tasks with a single click.
 
-Features
+#Features
 Add Tasks: Enter your tasks into the input field and click "Add" to create a new task.
 Toggle Task Completion: Click on a task to mark it as completed or uncompleted.
 Remove Tasks: Click the 'x' icon next to a task to remove it.
@@ -55,7 +56,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/online-task-manager.git
+git clone https://github.com/AlexMilenkov1/WEB-PROJECTS/tree/main/To-Do-List-App
 Navigate into the project directory:
 
 bash
@@ -67,7 +68,6 @@ File Structure
 index.html: The main HTML file containing the structure of the app.
 styles.css: The CSS file for styling the app.
 script.js: The JavaScript file for handling the functionality of the app.
-images/: Contains images used in the app (icons and buttons).
 How It Works
 HTML: Defines the structure of the task manager with a task input, add button, task list, and clear all tasks button.
 CSS: Styles the task manager for a clean and user-friendly appearance. It includes styles for the task list, buttons, and overall layout.
@@ -102,4 +102,5 @@ For any questions or support, you can reach out to your-email@example.com.
 
 Happy task managing! 🎉
 
+![Screenshot_3](https://github.com/user-attachments/assets/aec200c4-4b22-4bf1-a7ce-51ca699e4215)
 
