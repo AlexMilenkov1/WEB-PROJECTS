@@ -54,12 +54,10 @@ Persist Data: Your tasks are saved in local storage, so they remain even after y
 Installation
 Clone the repository:
 
-bash
 Copy code
 git clone https://github.com/AlexMilenkov1/WEB-PROJECTS/tree/main/To-Do-List-App
 Navigate into the project directory:
 
-bash
 Copy code
 cd online-task-manager
 Open index.html in your web browser.
@@ -98,7 +96,7 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For any questions or support, you can reach out to your-email@example.com.
+For any questions or support, you can reach out to milenkovalex2@gmail.com
 
 Happy task managing! 🎉
 
