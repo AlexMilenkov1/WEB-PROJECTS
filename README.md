@@ -133,8 +133,8 @@ Open index.html in your browser to view the application.
 
 ## Usage
 
-Enter a city name into the input field.
-Click the search button to fetch and display the weather data.
+1. Enter a city name into the input field.
+2. Click the search button to fetch and display the weather data.
    
 ## The application will display:
 
