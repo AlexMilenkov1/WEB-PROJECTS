@@ -102,3 +102,28 @@ Happy task managing! 🎉
 
 ![Screenshot_3](https://github.com/user-attachments/assets/aec200c4-4b22-4bf1-a7ce-51ca699e4215)
 
+# Weather Forecast Application
+
+## Introduction
+
+This is a simple weather forecast application that provides real-time weather information for any city around the world. It uses the OpenWeatherMap API to fetch weather data and dynamically updates the user interface based on the current weather conditions.
+
+## Features
+
+- Search for weather by city name.
+- Displays current temperature, humidity, and wind speed.
+- Shows weather conditions with corresponding images.
+- Handles errors gracefully with user-friendly messages.
+
+## Technologies Used
+
+- **HTML**: For the structure of the web page.
+- **CSS**: For styling the application.
+- **JavaScript**: For fetching weather data from the OpenWeatherMap API and updating the UI.
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+
