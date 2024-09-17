@@ -102,6 +102,8 @@ Happy task managing! 🎉
 
 ![Screenshot_3](https://github.com/user-attachments/assets/aec200c4-4b22-4bf1-a7ce-51ca699e4215)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Weather Forecast Application
 
 ## Introduction
@@ -125,5 +127,47 @@ This is a simple weather forecast application that provides real-time weather in
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/AlexMilenkov1/WEB-PROJECTS/tree/main/Weather-App
+
+Open index.html in your browser to view the application.
+
+Usage
+   Enter a city name into the input field.
+   Click the search button to fetch and display the weather data.
+The application will display:
+   Current temperature.
+   Weather status with an image.
+   Humidity percentage.
+   Wind speed.
+Code Overview
+   JavaScript (scripts.js)
+      - Defines the base URL for the OpenWeatherMap API.
+      - Handles the click event of the search button.
+      - Fetches weather data based on the user input.
+      - Updates the weather information on the page.
+      - Handles errors if the city is not found or other issues occur.
+   HTML (index.html)
+      - Contains the structure of the weather application.
+      - Includes an input field for city name and a button to trigger the search.
+      - Displays weather information and icons.
+   CSS (styles.css)
+      - Styles the application to make it visually appealing.
+      - Uses a gradient background and modern fonts.
+      - Provides responsive design for different screen sizes.
+API Key
+You need an API key from OpenWeatherMap to use this application. Replace the appid in the JavaScript file with your own API key:
+
+javascript
+Copy code
+   const baseUrl = `https://api.openweathermap.org/data/2.5/weather?appid=52c2a5409957192df3dfe96db224a5c9&units=metric`
+   
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgements
+OpenWeatherMap for providing the weather data.
+Poppins Font for the web font used in styling.
+
+
+Feel free to contribute to this project by opening issues or submitting pull requests. Enjoy using the Weather Forecast Application!
 
