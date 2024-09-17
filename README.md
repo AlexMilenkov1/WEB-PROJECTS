@@ -131,11 +131,11 @@ This is a simple weather forecast application that provides real-time weather in
 
 Open index.html in your browser to view the application.
 
-##Usage
+## Usage
    Enter a city name into the input field.
    Click the search button to fetch and display the weather data.
    
-##The application will display:
+## The application will display:
    Current temperature.
    Weather status with an image.
    Humidity percentage.
