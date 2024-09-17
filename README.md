@@ -179,3 +179,4 @@ Poppins Font for the web font used in styling.
 
 Feel free to contribute to this project by opening issues or submitting pull requests. Enjoy using the Weather Forecast Application!
 
+![Screenshot_4](https://github.com/user-attachments/assets/46faca5d-f087-4fe1-945f-7db15491aa84)
