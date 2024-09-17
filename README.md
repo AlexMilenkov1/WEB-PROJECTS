@@ -132,32 +132,35 @@ This is a simple weather forecast application that provides real-time weather in
 Open index.html in your browser to view the application.
 
 ## Usage
-   Enter a city name into the input field.
-   Click the search button to fetch and display the weather data.
+
+Enter a city name into the input field.
+Click the search button to fetch and display the weather data.
    
 ## The application will display:
-   Current temperature.
-   Weather status with an image.
-   Humidity percentage.
-   Wind speed.
+
+Current temperature.
+Weather status with an image.
+Humidity percentage.
+Wind speed.
    
 ## Code Overview
-   JavaScript (scripts.js)
-      - Defines the base URL for the OpenWeatherMap API.
-      - Handles the click event of the search button.
-      - Fetches weather data based on the user input.
-      - Updates the weather information on the page.
-      - Handles errors if the city is not found or other issues occur.
+
+JavaScript (scripts.js)
+- Defines the base URL for the OpenWeatherMap API.
+- Handles the click event of the search button.
+- Fetches weather data based on the user input.
+- Updates the weather information on the page.
+- Handles errors if the city is not found or other issues occur.
       
-   HTML (index.html)
-      - Contains the structure of the weather application.
-      - Includes an input field for city name and a button to trigger the search.
-      - Displays weather information and icons.
+HTML (index.html)
+- Contains the structure of the weather application.
+- Includes an input field for city name and a button to trigger the search.
+- Displays weather information and icons.
       
-   CSS (styles.css)
-      - Styles the application to make it visually appealing.
-      - Uses a gradient background and modern fonts.
-      - Provides responsive design for different screen sizes.
+CSS (styles.css)
+- Styles the application to make it visually appealing.
+- Uses a gradient background and modern fonts.
+- Provides responsive design for different screen sizes.
       
 API Key
 You need an API key from OpenWeatherMap to use this application. Replace the appid in the JavaScript file with your own API key:
