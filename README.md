@@ -47,36 +47,41 @@ Welcome to the Online Task Manager! This application allows you to create, manag
 
 #Features
 Add Tasks: Enter your tasks into the input field and click "Add" to create a new task.
+
 Toggle Task Completion: Click on a task to mark it as completed or uncompleted.
+
 Remove Tasks: Click the 'x' icon next to a task to remove it.
+
 Clear All Tasks: Click on the "Clear all tasks" link in the header to remove all tasks.
+
 Persist Data: Your tasks are saved in local storage, so they remain even after you refresh the page.
+
 Installation
 Clone the repository:
 
 Copy code
-git clone https://github.com/AlexMilenkov1/WEB-PROJECTS/tree/main/To-Do-List-App
+- git clone https://github.com/AlexMilenkov1/WEB-PROJECTS/tree/main/To-Do-List-App
 Navigate into the project directory:
 
-Copy code
-cd online-task-manager
 Open index.html in your web browser.
 
 File Structure
-index.html: The main HTML file containing the structure of the app.
-styles.css: The CSS file for styling the app.
-script.js: The JavaScript file for handling the functionality of the app.
+- index.html: The main HTML file containing the structure of the app.
+- styles.css: The CSS file for styling the app.
+- script.js: The JavaScript file for handling the functionality of the app.
 How It Works
-HTML: Defines the structure of the task manager with a task input, add button, task list, and clear all tasks button.
-CSS: Styles the task manager for a clean and user-friendly appearance. It includes styles for the task list, buttons, and overall layout.
-JavaScript: Manages the logic for adding tasks, toggling completion status, removing tasks, and saving/loading tasks to/from local storage.
+- HTML: Defines the structure of the task manager with a task input, add button, task list, and clear all tasks button.
+- CSS: Styles the task manager for a clean and user-friendly appearance. It includes styles for the task list, buttons, and overall layout.
+- JavaScript: Manages the logic for adding tasks, toggling completion status, removing tasks, and saving/loading tasks to/from local storage.
+
 JavaScript Overview
+
 Add Task:
 
-Listens for a click event on the "Add" button.
-Creates a new task item with a delete button.
-Adds the task to the task list and saves the list to local storage.
-Toggle Task Completion:
+- Listens for a click event on the "Add" button.
+- Creates a new task item with a delete button.
+- Adds the task to the task list and saves the list to local storage.
+- Toggle Task Completion:
 
 Allows users to mark a task as completed or incomplete by clicking on the task item.
 Remove Task:
@@ -89,6 +94,7 @@ Persist Data:
 
 Saves the current state of the task list in local storage.
 Loads the saved tasks from local storage when the page is refreshed.
+
 Contributing
 Feel free to fork the repository and make contributions! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 
