@@ -182,6 +182,8 @@ Acknowledgements
 OpenWeatherMap for providing the weather data.
 Poppins Font for the web font used in styling.
 
+aaaaa
+
 
 Feel free to contribute to this project by opening issues or submitting pull requests. Enjoy using the Weather Forecast Application!
 
